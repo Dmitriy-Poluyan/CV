@@ -20,8 +20,6 @@ anecdote_decline = ['Вернуться назад']
 TOKEN = 'Сюда вставить токен бота'
 group_id = 198651557
 
-#Дальше идёт код бота, там ничего не трогай
-
 first_photo = 457240642
 for i in range(107): cat_photos.append(first_photo + i)
 
