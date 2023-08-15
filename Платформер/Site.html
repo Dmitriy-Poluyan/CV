@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Непонятный платформер </title>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+	<style>
+		body{overflow: hidden;}
+		#floor{width: 99%;
+			margin-top: 650px;}
+		#timer, #score{font-size: 100px;}
+		#timer{right: 10px;}
+		#score, #skull{left: 50%;
+			transform: translate(-50%, 0);}
+		div{position:absolute;}
+		#skull, #cake, #result, #result1, #new_game{display: none;}
+	</style>
+</head>
+<body>
+	<div id="platforms"> </div>
+	<div id="player"> </div>
+	<div id="floor"> </div>
+	<div id="lives"> </div>
+	<div id="timer"> </div>
+	<div id="score"> </div>
+	<div id="cake"> </div>
+	<div id="skull"> </div>
+	<div id="result"> </div>
+	<div id="result1"> </div>
+	<div id="new_game"> </div>
+    <center>Стрелки - перемещение; ЛКМ - создать платформу</center>
+	<script src="script.js"> </script>
+</body>
+</html>
