@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    Совместимость
+    + Google Chrome
+    + Internet Explorer
+    ? Mozilla Firefox
+    ? Safari
+    -->
+    <meta charset="utf-8">
+    <title> Морской бой </title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="screen_center">
+        <div id="player1"> </div>
+        <div id="player2"> </div>
+        <input type="text" value="Игрок 1" id="name1">
+        <div id="name2"> Компьютер </div>
+        <div id="info">
+            <div class="a"> </div> <div class="a"> </div> <div class="a"> </div> <div class="a"> </div> - <span id="a4"> 1 </span> шт. <br>
+            <div class="a"> </div> <div class="a"> </div> <div class="a"> </div> - <span id="a3"> 2 </span> шт. <br>
+            <div class="a"> </div> <div class="a"> </div> - <span id="a2"> 3 </span> шт. <br>
+            <div class="a"> </div> - <span id="a1"> 4 </span> шт. <br>
+            Ориентация: <br>
+            <div class="b"> </div> <div class="b"> </div> <div class="b"> </div> <div class="b"> </div>
+            <div id="temp_info"> (Нажми ПКМ на поле для изменения ориентации) </div>
+        </div>
+        <div id="auto_gen"> Сгенерировать поле </div>
+        <div id="ready_button"> Готов! </div>
+        <div id="end_screen">
+            <span id="winner"> </span> победил! <br>
+            <div id="restart_button"> Сыграть ещё раз </div>
+        </div>
+        <div id="turn_info"> </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
