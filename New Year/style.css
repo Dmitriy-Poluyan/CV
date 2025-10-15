@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font: normal normal 400 min(2.25vw, 16px, 2.7vh)/0.8 "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    user-select: none;
+    overflow: hidden;
+    touch-action: none;
+}
+#snow{
+    position: absolute;
+    left: 50%;
+    margin: -2px 0 0 0;
+    transform: translate(-50%, 0);
+}
+#tree_bottom{
+    text-decoration: wavy underline green;
+}
+.star{
+    color: yellow;
+}
+.trunk{
+    color: #754837;
+}
+.needles{
+    color: green;
+}
+#prompt{
+    display: none;
+}
