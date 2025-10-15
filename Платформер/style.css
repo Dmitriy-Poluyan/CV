@@ -1,9 +1,0 @@
-body{overflow: hidden;}
-#floor{width: 99%;
-    margin-top: 650px;}
-#timer, #score{font-size: 100px;}
-#timer{right: 10px;}
-#score, #skull{left: 50%;
-    transform: translate(-50%, 0);}
-div{position:absolute;}
-#skull, #cake, #result, #result1, #new_game{display: none;}
